@@ -3,7 +3,7 @@ const app = express()
 const cors = require('cors');
 app.use(cors());
 
-const names = ["Gold","silver","frankicense" ,"myrrh", "salt"]
+const names = ["Gold","silver","emerald" ,"myrrh", "salt"]
 
 app.get("/api/names",(req,res)=>{res.json(names)})
 
